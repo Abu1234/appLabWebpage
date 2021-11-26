@@ -384,6 +384,10 @@ img.vert-move {
 }
 
 @media (max-width: 767px) {
+  
+  .feapara{
+   width:100%; 
+  }
   .bannerbtmtxt {
     margin-bottom: -19px;
   }

@@ -18,10 +18,10 @@ const ROUTES: Routes = [
   imports: [
     BrowserModule,
     FormsModule,MaterialExampleModule,
-
+BrowserAnimationsModule,
     RouterModule.forRoot(ROUTES)
   ],
-  declarations: [AppComponent, HomeComponent, MaterialComponent,BrowserAnimationsModule],
+  declarations: [AppComponent, HomeComponent, MaterialComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

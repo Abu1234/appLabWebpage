@@ -6,8 +6,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 
 import { HttpClientModule } from '@angular/common/http';
-import { HomeComponent } from './home/home.component';
-import { MaterialComponent } from './material/material.component';
+import { HomeComponent } from '../home/home.component';
+import { MaterialComponent } from '../material/material.component';
 const ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'material', component: MaterialComponent },

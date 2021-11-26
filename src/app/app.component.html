@@ -1,97 +1,120 @@
-	<!-- Navbar -->
+<!-- Navbar -->
 
-	<nav class="navbar navbar-expand-md bg-white container mb-md-3 mt-md-4">
-    <a class="navbar-brand" href="#"><span class="logocolor1">App</span><span class="logocolor2" >Lab</span></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-      <ul class="navbar-nav align-items-center">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> Key Features </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> Pricing </a>
-        </li>    
+<nav class="navbar navbar-expand-md bg-white container mb-md-3 mt-md-4">
+  <a class="navbar-brand" href="#"
+    ><span class="logocolor1">App</span><span class="logocolor2">Lab</span></a
+  >
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#collapsibleNavbar"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div
+    class="collapse navbar-collapse justify-content-end"
+    id="collapsibleNavbar"
+  >
+    <ul class="navbar-nav align-items-center">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/home"
+          >Home</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/material">
+          Key Features
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/material">
+          Pricing
+        </a>
+      </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">  Testiminial</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> FAQ </a>
-        </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/material">
+          Testiminial</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/material">
+          FAQ
+        </a>
+      </li>
 
-        <li class="nav-item">
-          <a class="nav-link navbtn " href="#"> Try for free</a>
-        </li>
+      <li class="nav-item">
+        <a
+          class="nav-link navbtn"
+          routerLinkActive="active"
+          routerLink="/material"
+        >
+          Try for free</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
 
-       
-     
-      </ul>
-
-
-                                   
-    </div>  
-  </nav>
-
-
-
-	<!-- Navbar -->
+<!-- Navbar -->
 <router-outlet></router-outlet>
 
+<!-- footer -->
 
-		<!-- footer -->
-		
-		<footer>
-		
-		
-			<div class="container">
-  
-  
-<div class="row"> 
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="text-center mb-5">
+          <a class="footerlogo" href="#"
+            ><span class="logocolor1">App</span
+            ><span class="logocolor3">Lab</span></a
+          >
+        </div>
 
-<div class="col-md-12"> 
+        <div class="text-center mb-5">
+          <ul class="pl-0 d-lg-inline-flex">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Key Features </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Pricing </a>
+            </li>
 
-<div class="text-center mb-5"> <a class="footerlogo" href="#"><span class="logocolor1">App</span><span class="logocolor3" >Lab</span></a></div>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Testiminial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> FAQ </a>
+            </li>
+          </ul>
+        </div>
 
+        <div class="text-center socialiconbtm">
+          <a class="px-2" href="#"
+            ><img src="../assets/images/facebookicon.png"
+          /></a>
+          <a class="px-2" href="#"
+            ><img src="../assets/images/twittericon.png"
+          /></a>
+          <a class="px-2" href="#"
+            ><img src="../assets/images/hashicon.png"
+          /></a>
+          <a class="px-2" href="#"
+            ><img src="../assets/images/githubicon.png"
+          /></a>
+        </div>
 
- <div class="text-center mb-5">     <ul class="pl-0 d-lg-inline-flex ">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> Key Features </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> Pricing </a>
-        </li>    
+        <div class="text-center copyrighttxt">
+          Copyright© Arifur Rahman Tushar 2019. All rights reserved
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">  Testiminial</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> FAQ </a>
-        </li>
-
-      </ul></div>
-	  
-	  <div class="text-center socialiconbtm">
-	  
-	  <a class="px-2" href="#"><img src="../assets/images/facebookicon.png"></a> <a class="px-2"  href="#"><img src="../assets/images/twittericon.png"></a> <a class="px-2"  href="#"><img src="../assets/images/hashicon.png"></a> <a class="px-2"  href="#"><img src="../assets/images/githubicon.png"></a> 
-	  </div>
-
-	  
-	  
-	  <div class="text-center copyrighttxt">Copyright© Arifur Rahman Tushar 2019. All rights reserved </div>
-</div>
-
-</div>
-</div>
-		
-		
-		</footer>
- 
-	<!-- footer -->
+<!-- footer -->

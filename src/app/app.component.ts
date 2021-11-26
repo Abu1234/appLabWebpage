@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+declare var $: any;
 
 @Component({
   selector: "app-root",
@@ -7,9 +8,15 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "CodeSandbox";
-  
-   isShow = false;
- 
+
+  isShow = false;
+
   toggleDisplay() {
     this.isShow = !this.isShow;
+  }
+  ngOnInit() {
+    $(".nav-link").on("click", function () {
+      $(".navbar-collapse").collapse("hide");
+    });
+  }
 }

@@ -489,7 +489,9 @@ line-height: 45px;
     text-align: center;margin-top:20px
 }
 }
-
+.appheadtxtcolor{
+	color:#242f51;
+}
 
 @media only screen and (max-width: 320px) {
 .paratxt {
@@ -502,6 +504,7 @@ line-height: 45px;
 }
 
 .appheadtxtcolor{
-	color:242f51;
+	color:#242f51;
+}
 }
 /* Media screen */

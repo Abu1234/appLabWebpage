@@ -333,6 +333,12 @@ img.vert-move {
   .jackpotborder {
     border-right: 0px solid #dee2e6 !important;
   }
+    .media-body {
+    flex: inherit !important;
+  }
+  .media {
+    justify-content: center;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 769px) {

@@ -1,6 +1,507 @@
-/* You can add global styles to this file, and also import other style files */
 
-html,
-body {
-  font-family: sans-serif;
+@font-face {
+  font-family: 'Poppins-SemiBold';
+
+  src: url('../fonts/Poppins-SemiBold.woff') format('woff');
+
 }
+@font-face {
+  font-family: 'Poppins-Bold';
+
+  src: url('../fonts/Poppins-Bold.woff') format('woff');
+
+}
+
+@font-face {
+  font-family: 'Poppins-Italic';
+
+  src: url('../fonts/Poppins-Italic.woff') format('woff');
+
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+
+  src: url('../fonts/Poppins-Medium.woff') format('woff');
+
+}
+
+
+@font-face {
+  font-family: 'Poppins-Regular';
+
+  src: url('../fonts/Poppins-Regular.woff') format('woff');
+
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+
+  src: url('../fonts/Poppins-Light.woff') format('woff');
+
+}
+
+
+
+body{
+font-family: 'Poppins-Regular' !important;
+
+}
+
+
+
+/* navbar */
+
+
+
+.navbar-brand{
+font-size:30px;
+    font-family: 'Poppins-Bold';
+}
+.logocolor1{
+    color: #fcae61 ;
+}
+
+.logocolor2{
+    color: #242f51;
+}
+
+.navbar-toggler-icon {
+    background-image: url("../images/navicon.png") !important;
+    width: 1em !important;
+    height: 1em !important;
+}
+
+.navbar-toggler {
+    color: #fcae61 !important;
+    border-color: #fcae61 !important;
+}
+.navbar-toggler {
+
+    border: 3px solid #fcaf8a !important;
+
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+    text-decoration: none !important;
+ outline: none !important;
+}
+
+.nav-link,.nav-link:hover{
+    color: #242f51; 
+    
+ font-size: 16px;
+}
+
+.navbtn, .navbtn:hover{
+    color:#fff;
+     background:#2500f9 !important;
+    font-size:16px;
+     font-family: 'Poppins-Medium';
+     border-radius: 30px;
+}
+
+.sitebtn, .sitebtn:hover{
+    color:#fff;
+     background:#2500f9 !important;
+    font-size:16px;
+     font-family: 'Poppins-Medium';
+     border-radius: 30px;
+}
+
+
+
+
+
+/* navbar */
+
+
+
+
+/* banner */
+
+.banner {
+    background-image: url(../images/bannerback.png);
+    background-size: cover;
+    background-repeat: no-repeat;background-position: 100% 100%;
+}
+.bannerstrip {
+    background-color: #e2eaed;
+    color: #242f51;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.bannerheading{
+  font-size: 60px;
+ color:#242f51; 
+ font-family: 'Poppins-SemiBold';
+}
+
+.bannerbtmtxt{
+    font-size:18px; color:#616368;
+}
+
+
+.demobtn, .demobtn:hover{
+    color:#2500f9;
+     
+    font-size:16px;
+     font-family: 'Poppins-Medium';
+   text-decoration:none
+}
+/* banner */
+
+
+/* Companies */
+
+
+.trustedtxt{
+	color: #242f51;font-size: 16px;
+}
+.companysection{
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+
+/* Companies */
+
+/*feature */
+.featureheadtxt{
+	font-size:36px ; color:#242f51; font-family: 'Poppins-SemiBold';line-height: 45px;
+}
+
+.featureptxt{
+	color: #616368;
+	font-size: 16px;
+}
+.featureiconheadtxt{
+font-family: 'Poppins-SemiBold';font-size:20px; 
+}
+.featurecolortxt1{
+	color:#f55767;
+}
+.featurecolortxt2{
+	color:#2563ff; 
+}
+.featurecolortxt3{
+	color:#40975f
+}
+.paratxt{
+	color: #616368 ; font-size: 16px
+}
+.featuresection{
+margin-bottom:100px;	
+}
+/* feature */
+
+/* jackpot */
+.headtxt{
+	font-family: 'Poppins-SemiBold';font-size:35px;  color:#242f51;
+}
+
+.jackpotptxt{
+		color: #616368 ; font-size: 16px;
+}
+
+.jackpotssection{
+	margin-bottom:80px;
+}
+/* jackpot */
+
+
+
+
+/* jackpotsubsec */
+.jackpotsubheadtxt{
+
+	font-family: 'Poppins-SemiBold';font-size:20px;  
+}
+
+.imgpad{
+	margin-bottom:30px
+}
+/*  jackpotsubsec */
+
+
+/* integration */
+.integrationsection {
+    margin-top: 100px;
+    margin-bottom: 55px;
+}
+.headtxt{
+
+	font-family: 'Poppins-SemiBold';font-size:36px;  color:#242f51;
+}
+
+.imgpad{
+	margin-bottom:30px
+}
+/*  integration */
+
+/*  appsection */
+.appsection{
+margin-top:100px;	
+    margin-bottom: 70px;
+}
+
+.appsubsection{
+	 margin-bottom: 70px;
+}
+/*  appsection */
+
+
+
+/*  footer */
+.footerlogo,.footerlogo:hover{
+font-size:30px;
+    font-family: 'Poppins-Bold';text-decoration:none;
+}
+
+footer{
+	background:#09142e;
+	padding-top:100px;	
+	padding-bottom:100px;
+ 
+}
+footer ul{
+	list-style:none;
+}
+footer .nav-link{
+	color:#fff !important;
+}
+
+.copyrighttxt{
+	opacity:21%; color:#fff; font-size: 16px;
+}
+.logocolor3{
+	color:#fff;
+}
+.socialiconbtm{
+	margin-bottom:100px;
+}
+
+
+img.vert-move {
+    -webkit-animation: mover 1.5s infinite  alternate;
+    animation: mover 1.5s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1.5s infinite  alternate;
+    animation: mover 1.5s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+
+/* Media screen */
+@media (min-width: 768px){
+
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    .navbtn, .navbtn:hover{
+        padding-top: 15px !important;
+    padding-bottom: 15px !important;
+       }
+	   .sitebtn, .sitebtn:hover{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+	padding-left: 20px;
+    padding-right: 20px;
+	text-decoration:none;
+}
+
+.jackpotborder{
+	border-right: 1px solid #dee2e6;
+}
+}
+
+
+@media (min-width: 769px) and (max-width: 992px){
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+	.jackpotborder{
+	border-right: 0px solid #dee2e6 !important;
+}
+}
+
+@media (min-width: 768px) and (max-width: 769px){
+		.featuresection {
+    margin-bottom: 37px;
+}
+.integrationsection {
+    margin-top: 47px;
+
+}
+.integrationsection .headtxt {
+margin-top: 55px;
+
+}.appsection {
+    margin-top: 59px;
+
+}
+.integrationsection .mt-5{
+	text-align: center;
+}
+.headtxt {
+text-align: center;
+    margin-bottom: 30px;
+}
+	.media-body {
+    
+    flex: inherit !important;
+}
+.media{
+	justify-content:center;
+}
+	.featureptxt {
+    text-align: center;
+}
+	.featureheadtxt {
+    margin-top:40px;
+	margin-bottom:40px;
+    text-align: center;
+}
+	.companysection {
+
+    margin-bottom: -10px;
+}
+.bannerheading {
+line-height: 73px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nav-link, .nav-link:hover {
+    color: #242f51;
+    font-size: 13px;
+}
+.navbtn {
+    color:#fff !important;
+}
+}
+
+
+@media (max-width: 767px){
+	.bannerbtmtxt {
+		margin-bottom: -19px;
+	}
+	 .paratxt{
+		    width: 80%;
+    margin: 0 auto;
+
+	}
+	a.sitebtn {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+a.demobtn {
+    width: 100%;
+    text-align: center;
+    float: right;
+}
+	.integrationsection img{
+		margin-bottom: 45px;
+	}
+	.integrationsection 	.mt-5{
+		text-align:center;
+	}
+	
+.appsection {
+    margin-top: 66px;
+    margin-bottom: 70px;
+}
+.featuresection {
+    margin-bottom: 24px;
+}
+	.media-body {
+    
+    flex: inherit !important;
+}
+.media{
+	justify-content:center;
+}
+.imgpad,.jackpotsubheadtxt,.paratxt,.featureptxt {
+  
+    text-align: center;
+}
+.jackpotsubsection .col-md-4{
+	    margin-bottom: 45px;
+}
+.integrationsection {
+    margin-top: -5px;
+}
+.featureheadtxt {
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+}
+ .companysection {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+    .navbtn, .navbtn:hover{
+        padding: 10px 20px 10px 20px !important;
+
+       }
+	   .sitebtn, .sitebtn:hover{
+        padding: 10px 20px 10px 20px !important;
+
+       }
+   .bannermobileimg{
+	   width:100%;
+   }
+   .banner{
+	   background-image:none !important;
+   }
+   .bannerheading {
+    font-size: 35px;
+text-align: center;
+line-height: 45px;
+}
+
+.bannerbtmtxt {
+    text-align: center;
+
+}
+.bannerstrip {
+
+    margin-bottom: 20px;
+}
+.headtxt {
+    font-size: 25px;
+    line-height: 31px; text-align: center;
+}
+.jackpotptxt {
+    text-align: center;margin-top:20px
+}
+}
+
+
+@media only screen and (max-width: 320px) {
+.paratxt {
+    width: 80%;
+    margin: 0 auto;
+}
+.bannerstrip {
+ 
+    font-size: 13px;
+}
+
+.appheadtxtcolor{
+	color:242f51;
+}
+/* Media screen */

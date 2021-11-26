@@ -12,40 +12,40 @@
   >
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div
+  <div [hidden] = “isShow”
     class="collapse navbar-collapse justify-content-end"
     id="collapsibleNavbar"
   >
     <ul class="navbar-nav align-items-center">
       <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active" routerLink="/home"
+        <a  (click) = toggleDisplay() class="nav-link" routerLinkActive="active" routerLink="/home"
           >Home</a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active" routerLink="/material">
+        <a (click) = toggleDisplay() class="nav-link" routerLinkActive="active" routerLink="/material">
           Key Features
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active" routerLink="/material">
+        <a (click) = toggleDisplay() class="nav-link" routerLinkActive="active" routerLink="/material">
           Pricing
         </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active" routerLink="/material">
+        <a (click) = toggleDisplay() class="nav-link" routerLinkActive="active" routerLink="/material">
           Testiminial</a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLinkActive="active" routerLink="/material">
+        <a (click) = toggleDisplay() class="nav-link" routerLinkActive="active" routerLink="/material">
           FAQ
         </a>
       </li>
 
       <li class="nav-item">
-        <a
+        <a (click) = toggleDisplay()
           class="nav-link navbtn"
           routerLinkActive="active"
           routerLink="/material"

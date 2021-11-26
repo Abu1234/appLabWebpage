@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import {MaterialExampleModule} from '../material.module';
 import { HomeComponent } from "../home/home.component";
 import { MaterialComponent } from "../material/material.component";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 const ROUTES: Routes = [
   { path: "home", component: HomeComponent },
   { path: "material", component: MaterialComponent },
@@ -20,7 +21,7 @@ const ROUTES: Routes = [
 
     RouterModule.forRoot(ROUTES)
   ],
-  declarations: [AppComponent, HomeComponent, MaterialComponent],
+  declarations: [AppComponent, HomeComponent, MaterialComponent,BrowserAnimationsModule],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

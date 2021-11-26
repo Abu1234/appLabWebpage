@@ -8,7 +8,7 @@ import { Router} from '@angular/router';
   styleUrls: ['./material.component.css']
 })
 export class MaterialComponent implements OnInit {
-
+  panelOpenState = false;
   constructor(private router: Router) { }
 
   ngOnInit() {

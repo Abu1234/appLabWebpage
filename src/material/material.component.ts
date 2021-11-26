@@ -7,7 +7,7 @@ import { Router} from '@angular/router';
   templateUrl: './material.component.html',
   styleUrls: ['./material.component.css']
 })
-export class HomeComponent implements OnInit {
+export class MaterialComponent implements OnInit {
 
   constructor(private router: Router) { }
 

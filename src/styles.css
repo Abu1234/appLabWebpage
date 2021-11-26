@@ -52,7 +52,7 @@ body {
 }
 
 .navbar-toggler-icon {
-  background-image: url("assets/images/navicon.png") !important;
+  background-image: url(assets/images/navicon.png) !important;
   width: 1em !important;
   height: 1em !important;
 }
@@ -101,7 +101,7 @@ body {
 /* banner */
 
 .banner {
-  background-image: url(../images/bannerback.png);
+  background-image: url(assets/images/bannerback.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% 100%;

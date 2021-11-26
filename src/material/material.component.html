@@ -58,10 +58,11 @@
                 <p>I'm visible because I am open</p>
               </mat-expansion-panel>
             </mat-accordion>
-            <mat-form-field appearance="fill" class="col-md-12 mt-3">
-              <mat-label>Textarea</mat-label>
-              <textarea matInput></textarea>
-            </mat-form-field>
+           
+             <mat-radio-group aria-label="Select an option">
+  <mat-radio-button value="1">Option 1</mat-radio-button>
+  <mat-radio-button value="2">Option 2</mat-radio-button>
+</mat-radio-group>
           </mat-card>
         </div>
       </div>
@@ -161,10 +162,11 @@
       <div class="col-md-6">
         <div>
             <mat-card class="my-3">
-      <mat-radio-group aria-label="Select an option">
-  <mat-radio-button value="1">Option 1</mat-radio-button>
-  <mat-radio-button value="2">Option 2</mat-radio-button>
-</mat-radio-group>
+      <mat-form-field appearance="fill" class="col-md-12 mt-3">
+              <mat-label>Textarea</mat-label>
+              <textarea matInput></textarea>
+            </mat-form-field>
+            
               <mat-spinner></mat-spinner>
             </mat-card>
         </div>

@@ -3,7 +3,7 @@ import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from "@angular/forms";
 import { Routes, RouterModule } from "@angular/router";
 import { AppComponent } from "./app.component";
-
+import {MaterialExampleModule} from '../material.module';
 import { HomeComponent } from "../home/home.component";
 import { MaterialComponent } from "../material/material.component";
 const ROUTES: Routes = [
@@ -16,7 +16,7 @@ const ROUTES: Routes = [
 @NgModule({
   imports: [
     BrowserModule,
-    FormsModule,
+    FormsModule,MaterialExampleModule,
 
     RouterModule.forRoot(ROUTES)
   ],

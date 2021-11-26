@@ -333,12 +333,10 @@ img.vert-move {
   .jackpotborder {
     border-right: 0px solid #dee2e6 !important;
   }
-    .media-body {
-    flex: inherit !important;
-  }
-  .media {
-    justify-content: center;
-  }
+
+  .feapara {
+width: 100%;
+}
 }
 
 @media (min-width: 768px) and (max-width: 769px) {
@@ -394,7 +392,9 @@ img.vert-move {
 }
 
 @media (max-width: 767px) {
-  
+    .feapara {
+width: 100%;
+}
   .feapara{
     display:inline !important;
    width:100%; 

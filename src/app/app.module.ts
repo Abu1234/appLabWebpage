@@ -4,7 +4,6 @@ import { FormsModule } from "@angular/forms";
 import { Routes, RouterModule } from "@angular/router";
 import { AppComponent } from "./app.component";
 
-import { HttpClientModule } from "@angular/common/http";
 import { HomeComponent } from "../home/home.component";
 import { MaterialComponent } from "../material/material.component";
 const ROUTES: Routes = [
@@ -18,7 +17,7 @@ const ROUTES: Routes = [
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule,
+
     RouterModule.forRoot(ROUTES)
   ],
   declarations: [AppComponent, HomeComponent, MaterialComponent],

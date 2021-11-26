@@ -304,6 +304,9 @@ img.vert-move {
 .featureptxt {
     width: 90%;
 }
+  .container.integrationsection .paratxt {
+    width: 85%;
+}
 }
 @media (min-width: 768px) {
   .navbar-expand-md .navbar-nav .nav-link {

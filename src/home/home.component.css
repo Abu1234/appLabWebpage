@@ -1,1 +1,31 @@
 
+.banner {
+    background-image: url(../images/bannerback.png);
+    background-size: cover;
+    background-repeat: no-repeat;background-position: 100% 100%;
+}
+.bannerstrip {
+    background-color: #e2eaed;
+    color: #242f51;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.bannerheading{
+  font-size: 60px;
+ color:#242f51; 
+ font-family: 'Poppins-SemiBold';
+}
+
+.bannerbtmtxt{
+    font-size:18px; color:#616368;
+}
+
+
+.demobtn, .demobtn:hover{
+    color:#2500f9;
+     
+    font-size:16px;
+     font-family: 'Poppins-Medium';
+   text-decoration:none
+}

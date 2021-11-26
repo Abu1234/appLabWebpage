@@ -301,6 +301,12 @@ img.vert-move {
 
 /* Media screen */
 @media (min-width: 1199px) {
+  .jackpotborder .headtxt {
+    width: 95%;
+}
+  .integrationsection  .headtxt{
+    width: 75%;
+  }
   .container.appsection .paratxt {
     width: 60%;
     margin: 0 auto;

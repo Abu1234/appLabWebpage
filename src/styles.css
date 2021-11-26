@@ -179,6 +179,10 @@ body {
 .featuresection {
   margin-bottom: 100px;
 }
+  .feapara{
+    display:flex ;
+   width:65%; 
+  }
 /* feature */
 
 /* jackpot */
@@ -386,6 +390,7 @@ img.vert-move {
 @media (max-width: 767px) {
   
   .feapara{
+    display:inline !important;
    width:100%; 
   }
   .bannerbtmtxt {

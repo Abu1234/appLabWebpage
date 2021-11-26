@@ -301,6 +301,10 @@ img.vert-move {
 
 /* Media screen */
 @media (min-width: 1199px) {
+  .container.appsection .paratxt {
+    width: 60%;
+    margin: 0 auto;
+}
 .featureptxt {
     width: 90%;
 }

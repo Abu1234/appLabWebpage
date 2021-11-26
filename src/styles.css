@@ -307,6 +307,7 @@ img.vert-move {
   .container.integrationsection .paratxt {
     width: 85%;
 }
+ 
 }
 @media (min-width: 768px) {
   .navbar-expand-md .navbar-nav .nav-link {
@@ -337,6 +338,9 @@ img.vert-move {
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0.5rem !important;
     padding-left: 0.5rem !important;
+  }
+  .integrationsection .justify-content-center{
+   text-align:center
   }
   .jackpotborder {
     border-right: 0px solid #dee2e6 !important;
